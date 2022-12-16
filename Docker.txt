@@ -1,0 +1,8 @@
+                                                  Docker 
+docker build -t <name of container>  . (To create  docker image)
+docker run -dp <port number>:<port number> <name of container>
+docker ps  (To get the id of container)
+docker stop <container id> (To stop the container)
+docker rm <container id>  (To remove the container)
+docker rm -f <container id>  (Stop and remove the container)
+
